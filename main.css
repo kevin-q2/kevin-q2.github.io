@@ -12,6 +12,7 @@ body {
     font-weight: 400;
     font-family: Garamond, serif;
     color: #222; 
+    background-color: aliceblue;
 }
 
 @-webkit-keyframes fontfix {
@@ -50,7 +51,7 @@ div#contentpane {
     color: #222222;
     font-size:100%;
     width: 85%; 
-    background-color: linen;
+    background-color: aliceblue;
     clear: both;
     line-height: 150%;
     z-index: 1;
