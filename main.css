@@ -10,9 +10,10 @@ body {
     font-size: 1.6em; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.7;
     font-weight: 400;
-    font-family: Garamond, serif;
+    /*font-family: Garamond, serif;*/
+    font-family: 'Courier New', Courier, monospace;
     color: #222; 
-    background-color: aliceblue;
+    background-color: lavender;
 }
 
 @-webkit-keyframes fontfix {
@@ -42,7 +43,6 @@ div#headpane {
 }
 
 div#contentpane {
-    
     position:relative;
     margin-top: -10px;
     margin-left:auto;
@@ -51,7 +51,7 @@ div#contentpane {
     color: #222222;
     font-size:100%;
     width: 85%; 
-    background-color: aliceblue;
+    background-color: lavender;
     clear: both;
     line-height: 150%;
     z-index: 1;
@@ -141,7 +141,7 @@ h1>a:hover {
 }
 
 #footer a:hover, #contentpane a:hover {
-    color: #40A596;
+    color: rgb(15, 15, 79);
 }
 
 hr {
@@ -150,7 +150,7 @@ hr {
 }
 
 a {
-    color: #6BD8C9;  
+    color: rgb(43, 43, 201);  
     text-decoration: none;
     /*font-weight: normal;*/
 }
@@ -219,7 +219,7 @@ table ol {
 }
 
 .nav a:hover {
-    color: #40A596;
+    color: midnightblue;
 }
 
 #empty {
