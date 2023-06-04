@@ -13,7 +13,7 @@ body {
     /*font-family: Garamond, serif;*/
     font-family: 'Courier New', Courier, monospace;
     color: #222; 
-    background-color: #fafaff;
+    background-color: lavender;
 }
 
 @-webkit-keyframes fontfix {
@@ -51,7 +51,7 @@ div#contentpane {
     color: #222222;
     font-size:100%;
     width: 85%; 
-    background-color: #fafaff;
+    background-color: lavender;
     clear: both;
     line-height: 150%;
     z-index: 1;
