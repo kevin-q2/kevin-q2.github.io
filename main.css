@@ -13,7 +13,7 @@ body {
     /*font-family: Garamond, serif;*/
     font-family: 'Courier New', Courier, monospace;
     color: #222; 
-    background-color: mintcream;
+    background-color: floralwhite;
 }
 
 @-webkit-keyframes fontfix {
@@ -51,7 +51,7 @@ div#contentpane {
     color: #222222;
     font-size:100%;
     width: 85%; 
-    background-color: mintcream;
+    background-color: floralwhite;
     clear: both;
     line-height: 150%;
     z-index: 1;
@@ -150,7 +150,7 @@ hr {
 }
 
 a {
-    color: rgb(43, 43, 201);   
+    color: rgb(33, 33, 65);   
     text-decoration: none;
     /*font-weight: normal;*/
 }
@@ -219,7 +219,7 @@ table ol {
 }
 
 .nav a:hover {
-    color: darkslateblue;
+    color: rgb(97, 89, 145);
 }
 
 #empty {

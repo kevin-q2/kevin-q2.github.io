@@ -31,15 +31,19 @@
     
     </div>
     
-
+    <hr class="divider" />
 <div>
       <h4>About Me</h4>
       
-      <p>I am a PhD student at Boston University where I am advised by Evimaria Terzi and Mark Crovella.  I am currently
-      researching new ways of clustering data to analyze the spatial distribution of waves during the spread of Covid-19. My interests involve algorithms 
-      for data mining, especially discrete problems on graphs, clustering, matrix decomposition, and MCMC. 
-      More broadly I find it important to think about how data science and machine learning are affecting society, and 
-    how they might be used responsibly to answer interesting questions. And even more broadly I am still just trying to figure out what I'm interested in! 
+      <p>Hello! I'm a PhD student in Data Science at Boston University.  
+        My interests are mainly in algorithms for data mining, especially in clustering and other geometrical problems. 
+        I am currently researching algorithms for interpretable clustering, which allow users to 
+        better understand the decision making process of their clustering model.
+        Lately I am also very interested in computational social choice, and am thinking about 
+        how to study voting systems with metric space simulations.
+      </p>
+      More broadly I find it important to think about how data science and machine learning interact
+      with our world, and how they might be used responsibly to answer interesting questions.
   </p>
       
 </div>
@@ -55,6 +59,66 @@
           <p>with Evimaria Terzi and Mark Crovella</p>
           <p>In Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining <b>(KDD '22)</b>.</p>
      </div> 
+
+</div>
+
+<hr class="divider" />
+
+<div>
+  <h4>Projects</h4>
+  Check out my <a href="https://github.com/kevin-q2" target="_blank"><b>github</b></a> page for code.
+
+  <p></p>
+ <div class="paper">
+      <p class="title"><a href="" target="_blank"><b>Interpretable Clustering</b></a></i></p>
+      <img src="images/example_rule_kmeans.png" alt="Interpretable Decision Boundaries" 
+      style="width: 200px; height: 200px; border: 2px solid black; float: right; margin-left: 20px;" />
+      <p>I am currently developing and experimenting 
+        with clustering algorithms that use interpretable decision boundaries.
+        These boundaries are simple rules or logical conditions 
+        (often linear, axis parallel conditions) that can be easily understood by users.
+        This produces models which are not only more transparent, but also powerful 
+        analytical tools.
+       </p>
+
+ </div>
+
+<br>
+<hr>
+
+<div class="paper">
+  <p class="title"><a href="https://github.com/kevin-q2/Metric-Voting" target="_blank"><b>Proportional Voting in Metric Space</b></a></i></p>
+  <!-- <img src="images/state_time4_1.png" alt="Interpretable Decision Boundaries" 
+  style="width: 300px; height: 170px; border: 2px solid black; float: right; margin-left: 20px;" /> -->
+
+  <p>I am also working on a project that studies voting systems in metric spaces.
+    In such a setting, voters and candidates are represented as points in
+    space and the distances between them represents differences computed 
+    according to a chosen metric. While this is a simplified and perhaps unrealistic 
+    model, it does allows for nice visualizations and simulations of voting systems.
+    Our aim is to study how different voting mechanisms perform in this setting, measuring 
+    proportionality and fairness in the election results.
+
+   </p>
+</div> 
+
+<br>
+<hr>
+
+<div class="paper">
+  <p class="title"><a href="https://github.com/kevin-q2/wave_cluster" target="_blank"><b>Clustering Spatio-Temporal Waves of Covid-19</b></a></i></p>
+  <!-- <img src="images/state_time4_1.png" alt="Interpretable Decision Boundaries" 
+  style="width: 300px; height: 170px; border: 2px solid black; float: right; margin-left: 20px;" />
+  -->
+  
+  <p> In this project we developed a methodology to cluster spatio-temporal waves of 
+    Covid-19 cases. It has been popular to refer to 
+    'waves' of Covid-19 cases, but how did different geographical locations 
+    experience them and how did those patterns change over time? We designed 
+    an algorithm which 1) Splits a location's time series into wave 
+    segments and 2) Clusters these segments into groups of similar waves.
+  </p>
+</div> 
 
 </div>       
 
